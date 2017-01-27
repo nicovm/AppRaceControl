@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite">
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/toolbar_main"
+        android:layout_gravity="center_horizontal"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+
+        android:id="@+id/include" />
+
+    <com.nifa.racecontrol.Model.CabeceraLayout
+        android:id="@+id/cabTecnica"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="5dp"
+        />
+
+
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Revision"
+        android:id="@+id/btnRevision"
+        android:background="@drawable/selector_button_default"
+        android:drawableLeft="@drawable/img_tecnica"
+        android:textSize="18sp"
+        android:drawablePadding="5dp"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Neumaticos"
+        android:id="@+id/btnNeumaticos"
+        android:background="@drawable/selector_button_default"
+        android:drawableLeft="@drawable/img_naumaticos"
+        android:textSize="18sp"
+        android:drawablePadding="5dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Observación General"
+        android:id="@+id/tvObservacionGral"
+        android:layout_margin="5dp"
+
+        />
+
+
+
+
+
+</LinearLayout>

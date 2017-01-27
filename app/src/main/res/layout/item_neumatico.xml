@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:padding="5dp"
+    android:orientation="vertical"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imgNeumatico"
+            android:src="@drawable/img_naumaticos" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@android:color/black"
+            android:textSize="30dp"
+            android:text="123456"
+            android:id="@+id/tvNumNeumatico"
+            android:textAlignment="textStart"
+            android:gravity="center"
+            android:layout_marginLeft="10dp"/>
+
+    </LinearLayout>
+
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="1dp"
+    >
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="Usado"
+        android:id="@+id/tvTipoNeumatico"
+        android:layout_alignTop="@+id/tvFechaNeumatico"
+        android:layout_toRightOf="@+id/imgNeumatico"
+        android:layout_toEndOf="@+id/imgNeumatico"
+        android:layout_marginLeft="50dp"
+        android:textColor="@android:color/black"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="01/08/2016 00:00"
+        android:id="@+id/tvFechaNeumatico"
+        android:gravity="center|end"
+        android:textColor="#000000"
+        />
+
+</LinearLayout>
+
+
+
+
+</LinearLayout>

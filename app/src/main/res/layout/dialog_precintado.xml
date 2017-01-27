@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    >
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+
+        ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView"
+            android:src="@drawable/img_tecnica" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="28sp"
+            android:ems="10"
+            android:hint="Nuevo precinto"
+            android:textColor="@android:color/black"
+            android:id="@+id/etNumPrecintado"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="5dp"
+        android:weightSum="2"
+        >
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Cancelar"
+            android:id="@+id/btnCancelarPrecintado"
+            android:background="@drawable/selector_button_primary"
+            android:drawablePadding="5dp"
+            android:layout_marginRight="1dp"
+            />
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Guardar"
+            android:id="@+id/btnGuardarPrecintado"
+            android:background="@drawable/selector_button_primary"
+            android:drawablePadding="5dp"
+            android:layout_marginLeft="1dp"
+            />
+
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

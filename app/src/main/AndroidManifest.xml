@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.nifa.racecontrol">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_racecontrol"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Controller.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:label="Torneos" android:name=".Controller.TorneosActivity"></activity>
+
+        <activity android:label="Categoria" android:name=".Controller.CategoriasActivity"></activity>
+
+        <activity android:label="Pilotos" android:name=".Controller.PilotoActivity"></activity>
+
+        <activity android:label="Carreras" android:name=".Controller.CarreraActivity"></activity>
+
+        <activity android:label="Tecnica" android:name=".Controller.TecnicaActivity"></activity>
+
+        <activity android:label="Revision" android:name=".Controller.ElementosRevisionActivity">
+
+            <meta-data
+                android:name="RaceControl"
+                android:resource="@xml/searchable">
+            </meta-data>
+        </activity>
+
+        <activity android:label="Precintado" android:name=".Controller.PrecintadoActivity"></activity>
+
+        <activity android:label="Neumaticos" android:name=".Controller.NeumaticoActivity"></activity>
+
+        <activity android:label="Revision" android:name=".Controller.RevisionActivity"></activity>
+
+
+    </application>
+
+</manifest>

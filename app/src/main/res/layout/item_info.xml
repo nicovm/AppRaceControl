@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Titulo"
+        android:id="@+id/tvTituloInfo"
+        android:layout_marginLeft="5dp"
+        android:layout_above="@+id/tvSubInfo"
+        android:layout_toRightOf="@+id/imgInfo"
+        android:layout_toEndOf="@+id/imgInfo" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:id="@+id/imgInfo"
+        android:src="@drawable/img_torneos" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="SubInfo"
+        android:id="@+id/tvSubInfo"
+        android:layout_gravity="right"
+        android:layout_alignBottom="@+id/imgInfo"
+        android:layout_toRightOf="@+id/imgInfo"
+        android:layout_toEndOf="@+id/imgInfo"
+        android:layout_marginLeft="5dp"
+        />
+</RelativeLayout>

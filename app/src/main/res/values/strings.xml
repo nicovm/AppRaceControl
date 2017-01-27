@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">RaceControl</string>
+    <string name="Guardar">Guardar</string>
+    <string name="Cancelar">Cancelar</string>
+
+    <string-array name="Tags">
+        <item>Cerrar Sesion</item>
+        <item>Prueba</item>
+        <item>Guardar</item>
+    </string-array>
+</resources>

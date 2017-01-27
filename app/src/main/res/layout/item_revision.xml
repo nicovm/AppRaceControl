@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:padding="5dp"
+    android:layout_height="wrap_content"
+    android:background="@drawable/shape_revision1"
+    android:orientation="vertical"
+    android:layout_margin="2.5dp"
+
+    >
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Nombre Revision"
+            android:id="@+id/tvNombreRevision"
+            android:textColor="#000"
+            android:textSize="25dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="10dp"
+
+            />
+
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Precinto: 12345687"
+            android:id="@+id/tvPrecinto"
+            android:textColor="#000"
+            android:layout_below="@+id/tvNombreRevision"
+            android:layout_alignLeft="@+id/tvNombreRevision"
+            android:layout_alignStart="@+id/tvNombreRevision"
+            android:layout_toLeftOf="@+id/imgBtnEdit"
+            android:layout_toStartOf="@+id/imgBtnEdit" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imgBtnEdit"
+            android:src="@drawable/img_edit"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/selector_button_default"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Ultimo precinto:"
+            android:id="@+id/tvUltimoPrecinto"
+            android:layout_below="@+id/tvPrecinto"
+            android:layout_alignLeft="@+id/tvPrecinto"
+            android:layout_alignStart="@+id/tvPrecinto" />
+
+
+    </RelativeLayout>
+
+
+    <TextView
+        android:layout_margin="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="2dp"
+        android:text="3 Observaciones"
+        android:textColor="@android:color/white"
+        android:gravity="center"
+        android:lines="2"
+        android:maxLines="3"
+        android:background="@drawable/shape_observacion1"
+        android:id="@+id/tvObservacionRevision" />
+
+
+</LinearLayout>

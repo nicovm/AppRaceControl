@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    >
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Torneo Seleccionado"
+        android:id="@+id/btnTorneo"
+        android:textAlignment="textStart"
+        android:drawablePadding="3dp"
+        android:drawableLeft="@drawable/img_torneos"
+        android:background="@drawable/selector_button_cabecera1"
+        android:layout_margin="2.5dp"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Torneo Seleccionado"
+        android:id="@+id/btnCategoria"
+        android:textAlignment="textStart"
+        android:drawablePadding="3dp"
+        android:drawableLeft="@drawable/img_categorias"
+        android:background="@drawable/selector_button_cabecera1"
+        android:layout_margin="2.5dp"
+        />
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Categoria Seleccionado"
+        android:id="@+id/btnCarrera"
+        android:textAlignment="textStart"
+        android:drawablePadding="3dp"
+        android:drawableLeft="@drawable/img_carreras"
+        android:background="@drawable/selector_button_cabecera1"
+        android:layout_margin="2.5dp"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Piloto Seleccionado"
+        android:id="@+id/btnPiloto"
+        android:textAlignment="textStart"
+        android:drawablePadding="3dp"
+        android:drawableLeft="@drawable/img_pilotos"
+        android:background="@drawable/selector_button_cabecera1"
+        android:layout_margin="2.5dp"
+        />
+
+
+
+</LinearLayout>
